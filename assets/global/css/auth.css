@@ -1,0 +1,162 @@
+/* Auth Pages Global Styles */
+.auth-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.auth-page-logo {
+  margin-bottom: 2rem;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth-title {
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.auth-subtitle {
+  color: #6c757d;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-control,
+.form-select {
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background-color: #093ca1;
+  border-color: #093ca1;
+}
+
+.btn-primary:hover {
+  background-color: #093ca1;
+  border-color: #093ca1;
+}
+
+.btn-light {
+  background-color: #f8fafc;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+}
+
+.btn-light:hover {
+  background-color: #f1f5f9;
+}
+
+.metamask-icon {
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #e2e8f0;
+}
+
+.divider-text {
+  color: #64748b;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+
+.text-primary {
+  color: #093ca1 !important;
+}
+
+.form-check-input:checked {
+  background-color: #093ca1;
+  border-color: #093ca1;
+}
+
+.input-group-text {
+  background-color: #f8fafc;
+  border-color: #e2e8f0;
+}
+
+.alert-info {
+  background-color: #f0f9ff;
+  border-color: #bae6fd;
+  color: #0369a1;
+  border-radius: 8px;
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 12px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.modal-footer {
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Error Messages */
+.text-danger {
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 575px) {
+  .auth-container {
+    padding: 1.5rem;
+  }
+
+  .auth-title {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    padding: 0.5rem;
+  }
+}
